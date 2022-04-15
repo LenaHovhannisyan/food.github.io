@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-image: url(image/stock-vector-set-fast-food-blackboard-style_77313-127.jpg);
+}
+.menu1{
+	width: 50%;
+	height: 100vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(image/20220410_223909.jpg);
+}
+.menu2{
+	width: 50%;
+	height: 100vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(image/ftgrt.png);
+}
+
+
+@media screen and (max-width: 980px){
+ 
+
+header{
+	flex-wrap: wrap;
+	height: 200vh;
+}
+.menu1{
+	width: 100%;
+}
+.menu2{
+	width: 100%;
+}
+}
